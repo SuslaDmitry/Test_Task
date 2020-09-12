@@ -24,7 +24,7 @@ SECRET_KEY = 'mml-#!3i1z!m3y7%gx)eew4o74k_5awngdn)=$+jsja*f69a!v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['35.226.172.229']
+ALLOWED_HOSTS = ['35.232.72.66']
 
 # Application definition
 
@@ -75,22 +75,22 @@ WSGI_APPLICATION = 'Blog.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'django_db',
-        'USER' : 'user_name',
-        'PASSWORD' : 'Qwerty*123',
-        'HOST' : 'localhost',
-        'PORT' : '5432',
-    }
-}
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'django_db',
+#         'USER' : 'user_name',
+#         'PASSWORD' : 'Qwerty*123',
+#         'HOST' : 'localhost',
+#         'PORT' : '5432',
 #     }
 # }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
