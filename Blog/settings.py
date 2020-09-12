@@ -24,8 +24,7 @@ SECRET_KEY = 'mml-#!3i1z!m3y7%gx)eew4o74k_5awngdn)=$+jsja*f69a!v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['blog-task.tk',
-                 '34.105.217.131']
+ALLOWED_HOSTS = ['35.226.172.229']
 
 # Application definition
 
